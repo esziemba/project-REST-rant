@@ -33,7 +33,7 @@ REST-Rant is an app where users can review restaurants.
 | pic      | String    |
 
 
-# Rants
+## Rants
 
 |   **Field**  |          **Type**         |
 |:--------:|:---------------------:|
