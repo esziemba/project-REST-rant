@@ -11,7 +11,7 @@ function error404 () {
             <div>
                 <img height="900px" src="/images/marc-schaefer-LLCaj1W6EFo-unsplash.jpg" alt="Toilet" />
                 <div>
-                Photo by <a href='https://unsplash.com/@marcschaefer'>@marcschaefer  on Unsplash</a>
+                Photo by <a href='https://unsplash.com/@marcschaefer'>@marcschaefer on Unsplash</a>
                 </div>
             </div>
         </Def>
