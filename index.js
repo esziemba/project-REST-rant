@@ -24,9 +24,10 @@ app.get('*', (req, res) => {
 })
 
 // DB connection
-mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true})
-    .then(() => console.log('DB connected'))
-    .catch(err => console.error(err));
-
-
+mongoose.connect('mongodb+srv://admin:admin@cluster0.s4vll.mongodb.net/?retryWrites=true&w=majority', {useNewUrlParser: true});
+mongoose.connection.once('open', function(){
+  console.log('Conection has been made!');
+}).on('error', function(error){
+    console.log('Error is: ', error);
+});
 app.listen(process.env.PORT)
